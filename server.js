@@ -223,7 +223,7 @@ client.on("message", message => {
       .addField("**Channels** : ", `» ${client.channels.size} `, true)
       .addField("**Users** : ", `» ${client.users.size} `, true)
       .addField("**Bot Name** :  ", `» ${client.user.tag} `, true)
-      .addField("**Bot Owner** :  ", `» <@719218896288088155>`, true) // تعديل اساسي غير الايدي لايدي حسابك
+      .addField("**Bot Owner** :  ", `» <@722915852344885299>`, true) // تعديل اساسي غير الايدي لايدي حسابك
       .setImage("")
       .setFooter(message.author.username, message.client.avatarURL);
     message.channel.send(bot);
@@ -815,7 +815,7 @@ client.on("message", message => {
 \`${prefix}settings limitstime\` : تحديد الوقت الذي من خلالة يتم التبنيد كـ مثال اذا شخص بند 5 في دقيقة البوت يبنده
 \`${prefix}antibots on\` : منع دخول بوتات
 \`${prefix}antibots off\` : السماح للبوتات بالدخول
-\`شرح البوت \` : <https://youtu.be/6B9nrQp02Rk>
+\`دسكورد صاحب البوت \` : <https://discord.gg/EeJsbMS>
 `);
         })
         .then(e => {
@@ -899,7 +899,7 @@ client.on("message", message => {
 \`${prefix}Volume\` : تغيير الصوت [vol] 
 \`${prefix}np\` : عرض مايتم تشغيله الان [np] 
 \`${prefix}repeat\` : تكرار الاغنية 
-\`شرح البوت \` : <https://youtu.be/6B9nrQp02Rk>
+\`دسكورد صاحب البوت \` : <https://discord.gg/EeJsbMS>
 
 `);
         })
