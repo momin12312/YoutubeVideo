@@ -223,7 +223,7 @@ client.on("message", message => {
       .addField("**Channels** : ", `» ${client.channels.size} `, true)
       .addField("**Users** : ", `» ${client.users.size} `, true)
       .addField("**Bot Name** :  ", `» ${client.user.tag} `, true)
-      .addField("**Bot Owner** :  ", `» <@624873312627064833>`, true) // تعديل اساسي غير الايدي لايدي حسابك
+      .addField("**Bot Owner** :  ", `» <@626849156803330048>`, true) // تعديل اساسي غير الايدي لايدي حسابك
       .setImage("")
       .setFooter(message.author.username, message.client.avatarURL);
     message.channel.send(bot);
